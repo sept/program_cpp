@@ -1,13 +1,17 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include <stdlib.h>
-#if 0
-void swap(int *x, int *y)
+*/
+/*c++中 引用 的使用*/
+#include <iostream>
+using namespace std;
+#if 1
+void swap(int &x, int &y)
 {
 	int temp;
 
-	temp = *x;
-	*x = *y;
-	*y = temp;
+	temp = x;
+	x = y;
+	y = temp;
 }
 
 int main(void)
@@ -15,14 +19,16 @@ int main(void)
 	int a = 4;
 	int b = 11;
 
-	swap(&a, &b);
+//	swap(&a, &b);
+	swap(a, b);               // 用a和b 初始化 x 和 y;
 
-	printf("a = %d\nb = %d\n", a, b);
+//	printf("a = %d\nb = %d\n", a, b);
+	cout<<"a = "<<a<<"\n"<<"b = "<<b<<endl;
 
 	return 0;
 }
 #endif
-
+#if 0
 struct birthday
 {
 	int year;
@@ -61,3 +67,4 @@ int main(void)
 
 	return 0;
 }
+#endif
