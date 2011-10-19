@@ -29,7 +29,9 @@ struct birthday
 	int month;
 	int day;
 };
-
+/*struct stu_info结构体的首地址 和 struct birthday b 地址 相等 只是物理意义不一样
+ 相当于 二维数组中的 外地址和内地址 区别 
+ 若 定义变量b 不是放在首行 则 不能按下例 方式转化*/
 struct stu_info
 {
 	struct birthday b;
