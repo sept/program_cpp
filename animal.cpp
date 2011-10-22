@@ -14,7 +14,7 @@ private:
 	{cout<<"animal walk"<<endl;}
 };
 
-class Dog:protected Animal
+class Dog:public Animal
 {
 public:
 	void sleep()
@@ -30,12 +30,13 @@ public:
 		cout<<"person sleep"<<endl;
 	}
 };
+
 int main(void)
 {
 	Animal *an;
-    Dog pl;
+    Person pl;
     an = &pl;
-    an->sleep();
+    an->sleep();     //因为 Animal 中使用 virtual 故此处 看做指针重指到Person类 中的sleep  
     
 	return 0;
 }
