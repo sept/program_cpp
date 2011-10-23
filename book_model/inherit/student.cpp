@@ -34,7 +34,6 @@ Student::Student(const char *S_name, int S_age, int S_score)
 :Person(S_name, S_age), score(S_score)
 {
     cout<<"creat student"<<endl;
-    score = S_score;
 }
 
 void Student::display() const

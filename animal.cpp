@@ -5,6 +5,7 @@ class Animal
 {
 public:
     virtual void sleep()       //虚函数 类似 包含void (*sleep)()        绑定
+//    void sleep()       //虚函数 类似 包含void (*sleep)()        绑定
 	{cout<<"animal sleep"<<endl;}
 protected:                          //被保护 的区域 可在 继承他的函数中调用
 	void eat()
