@@ -18,11 +18,13 @@ public:
 	}
 //	point()
 //	{}
-	point(int x, int y)           //构造函数 即 完成对象内容的初始化
-	/*此处的 x和y 可看为局部变量 跟private 中定义的变量相反*/
+	point(int a = 3, int b = 5)           //构造函数 即 完成对象内容的初始化
+    :x(a), y(b)                      //也可使用 此方法 对 数据成员 进行初始化
+/*此处的 a和b 可看为局部变量 而在类中 定义的x,y可看作为 全局变量 */
+/*若 主函数中 没有对类 传入参数 则使用局部变量 对x, y的初始化，反之 则使用传入的数据*/
 	{
-		this->x = x;           //隐含的指针 指向自己
-		this->y = y;
+//		x = a;           //隐含的指针 指向自己
+//		y = b;
 		p = (char *)new char[1024];
 		strcpy(p, "hello world~!");
 	}
@@ -36,8 +38,8 @@ public:
 
 int main(void)
 {
-//	point p;     //若没有传参 则在类中加一个空的 构造函数
-	point p(3, 5);
+	point p;     //若没有传参并且没有默认值 则在类中加一个空的 构造函数
+//	point p(3, 5);
 
 	p.show();
 	cout<<"  p   "<<&p<<endl;

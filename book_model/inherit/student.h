@@ -4,9 +4,7 @@
 class Person
 {
 public:
-    Person(const char *name, int age);
-    Person()
-    {}
+    Person(const char *P_name = NULL, int P_age = 0);
     ~Person();
     void display() const;               //只可访问 不可修改
 
@@ -18,9 +16,7 @@ protected:
 class Student:public Person
 {
 public:
-    Student(const char *name, int age, int score);
-    Student()
-    {}
+    Student(const char *S_name = NULL, int S_age = 10, int S_score = 59);
     ~Student();
     void display() const;
 
@@ -28,4 +24,4 @@ private:
     int score;
 };
 
-#endif //STUDENT_H
+#endif 

@@ -3,15 +3,23 @@
 #include "student.h"
 using namespace std;
 
-Person::Person(const char *name, int age)
-:name(NULL), age(age)  //对参数初始化
+Person::Person(const char *P_name, int P_age)
+:name(NULL), age(P_age)     //对参数初始化   若参数无空 则使用 默认值
 {
     cout<<"creat person"<<endl;
-    this->name = new char[strlen(name) + 1];  //name分配空间  strlen 不包含'\0'
-    strcpy(this->name, name);
+
+    if (P_name == NULL)                //若name 为空则开辟一个字节 为了不论何种情况 delete时 不出错
+    {
+        this->name = new char[1];
+        *this->name = '\0';
+        return;
+    }
+
+    this->name = new char[strlen(P_name) + 1];  //name分配空间  strlen 不包含'\0'
+    strcpy(this->name, P_name);
 }
 
-void Person::display() const        //之间输出查看
+void Person::display() const        
 {
     cout<<"<<<<display person information>>>>"<<endl<<"Name"<<name<<endl<<"Age"<<age<<endl<<endl;
 }
@@ -22,9 +30,11 @@ Person::~Person()                   //析构函数  释放 new开辟的空间
     delete [] name;
 }
 
-Student::Student(const char *name, int age, int score):Person(name, age), score(score)
+Student::Student(const char *S_name, int S_age, int S_score)
+:Person(S_name, S_age), score(S_score)
 {
     cout<<"creat student"<<endl;
+    score = S_score;
 }
 
 void Student::display() const
