@@ -20,8 +20,8 @@ class Student:public Person
 public:
     Student(const char *S_name = NULL, int S_age = 10, int S_score = 59);
     ~Student();
-    virtual void display() const;
-//     void display() const;
+//    virtual void display() const;
+    void display() const;
 
 private:
     int score;

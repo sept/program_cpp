@@ -21,7 +21,7 @@ Person::Person(const char *P_name, int P_age)
 
 void Person::display() const        
 {
-    cout<<"<<<<display person information>>>>"<<endl<<"Name"<<name<<endl<<"Age"<<age<<endl<<endl;
+    cout<<"<<<<display person information>>>>"<<endl<<"Name"<<name<<endl<<"Age"<<age<<endl;
 }
 
 Person::~Person()                   //析构函数  释放 new开辟的空间
