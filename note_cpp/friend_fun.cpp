@@ -9,6 +9,7 @@ class Time
 public:
     Time(int, int, int);
     void display(Date &);
+
 private:
     int hour;
     int minute;
@@ -20,6 +21,7 @@ class Date
 public:
     Date(int, int, int);
     friend void Time::display(Date &);
+
 private:
     int mouth;
     int day;

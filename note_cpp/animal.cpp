@@ -52,58 +52,12 @@ void show_info(Animal &t)
     cout<<" age = "<<t.age<<endl<<"name = "<<t.name<<endl;
 }
 
-#if 0
-class Dog:public Animal
-{
-public:
-    Dog(int a = 2):Animal(a)
-    {
-        cout<<"Dog constructure"<<endl;
-    }
-	void sleep()
-	{cout<<"Dog sleep"<<endl;}
-
-    ~Dog()
-    {
-        cout<<"Dog unconstructure"<<endl;
-    }
-};
-
-class Person:public Animal
-{
-public:
-    Person(int a):Animal(a)
-    {
-        cout<<"Person constructure"<<endl;
-    }
-public:
-	void sleep()
-	{
-		eat();
-		cout<<"person sleep"<<endl;
-	}
-    ~Person()
-    {
-        cout<<"Person unconstructure"<<endl;
-    }
-};
-#endif
 int main(void)
 {
     Animal an(5, "hello");
     Animal bn(an);             //调用 拷贝构造函数
 
     show_info(bn);
-/*	Animal *an = new Animal(5);
-    an->show_info();
-    delete [] an;
-    an->sleep();     //因为 Animal 中使用 virtual 故此处 看做指针重指到Person类 中的sleep  
-   
-    Dog dg;
-    dg.show_info();
 
-    Person ps(6);
-    ps.show_info();
-*/
 	return 0;
 }

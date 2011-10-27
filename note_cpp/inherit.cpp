@@ -78,7 +78,7 @@ int main(void)
     an->show_info();
     delete  an;
 //    an->sleep();     //因为 Animal 中使用 virtual 故此处 看做指针重指到Person类 中的sleep  
-   
+    
     Dog dg;
     dg.show_info();
 
