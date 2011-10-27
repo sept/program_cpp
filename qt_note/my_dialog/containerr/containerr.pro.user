@@ -10,11 +10,11 @@
  </data>
  <data>
   <variable>RunConfiguration0-ProFile</variable>
-  <value type="QString">gui.pro</value>
+  <value type="QString">containerr.pro</value>
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
-  <value type="QString">gui</value>
+  <value type="QString">containerr</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseDyldImageSuffix</variable>
@@ -58,6 +58,7 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <value key="QtVersionId" type="int">0</value>
    <value key="ToolChain" type="int">0</value>
+   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">2</value>
   </valuemap>
  </data>
@@ -66,6 +67,7 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
    <value key="QtVersionId" type="int">0</value>
+   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">0</value>
   </valuemap>
  </data>
@@ -109,7 +111,7 @@
     <value type="QString">XMODIFIERS=@im=ibus</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">/home/gj/program_cpp/qt_note/gui/gui.pro</value>
+    <value type="QString">/home/gj/program_cpp/qt_note/my_dialog/containerr/containerr.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">linux-g++</value>
     <value type="QString">-r</value>
@@ -117,7 +119,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/qmake-qt4</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/gui</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/my_dialog/containerr</value>
   </valuemap>
  </data>
  <data>
@@ -165,7 +167,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/gui</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/my_dialog/containerr</value>
   </valuemap>
  </data>
  <data>

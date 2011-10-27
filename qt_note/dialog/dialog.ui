@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>406</width>
+    <height>259</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>221</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>251</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>40</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>guoguo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>210</y>
+     <width>93</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

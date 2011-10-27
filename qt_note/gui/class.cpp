@@ -1,14 +1,14 @@
 #include "class.h"
 #include "ui_class.h"
 
-class::class(QWidget *parent) :
+dialog::dialog(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::class)
+    ui(new Ui::dialog)
 {
     ui->setupUi(this);
 }
 
-class::~class()
+dialog::~dialog()
 {
     delete ui;
 }

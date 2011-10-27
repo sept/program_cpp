@@ -10,11 +10,11 @@
  </data>
  <data>
   <variable>RunConfiguration0-ProFile</variable>
-  <value type="QString">gui.pro</value>
+  <value type="QString">dialog.pro</value>
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
-  <value type="QString">gui</value>
+  <value type="QString">dialog</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseDyldImageSuffix</variable>
@@ -109,7 +109,7 @@
     <value type="QString">XMODIFIERS=@im=ibus</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">/home/gj/program_cpp/qt_note/gui/gui.pro</value>
+    <value type="QString">/home/gj/program_cpp/qt_note/dialog/dialog.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">linux-g++</value>
     <value type="QString">-r</value>
@@ -117,7 +117,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/qmake-qt4</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/gui</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/dialog</value>
   </valuemap>
  </data>
  <data>
@@ -165,7 +165,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/gui</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/dialog</value>
   </valuemap>
  </data>
  <data>

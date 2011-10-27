@@ -1,24 +1,20 @@
 <!DOCTYPE QtCreatorProject>
 <qtcreator>
  <data>
+  <variable>RunConfiguration0-Arguments</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
   <variable>RunConfiguration0-BaseEnvironmentBase</variable>
   <value type="int">2</value>
  </data>
  <data>
-  <variable>RunConfiguration0-CommandLineArguments</variable>
-  <valuelist type="QVariantList"/>
- </data>
- <data>
-  <variable>RunConfiguration0-ProFile</variable>
-  <value type="QString">gui.pro</value>
+  <variable>RunConfiguration0-Executable</variable>
+  <value type="QString"></value>
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
-  <value type="QString">gui</value>
- </data>
- <data>
-  <variable>RunConfiguration0-UseDyldImageSuffix</variable>
-  <value type="bool">false</value>
+  <value type="QString">Custom Executable</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseTerminal</variable>
@@ -29,20 +25,20 @@
   <valuelist type="QVariantList"/>
  </data>
  <data>
+  <variable>RunConfiguration0-UserName</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
   <variable>RunConfiguration0-UserSetName</variable>
   <value type="bool">false</value>
  </data>
  <data>
-  <variable>RunConfiguration0-UserSetWorkingDirectory</variable>
-  <value type="bool">false</value>
- </data>
- <data>
-  <variable>RunConfiguration0-UserWorkingDirectory</variable>
-  <value type="QString"></value>
+  <variable>RunConfiguration0-WorkingDirectory</variable>
+  <value type="QString">$BUILDDIR</value>
  </data>
  <data>
   <variable>RunConfiguration0-type</variable>
-  <value type="QString">Qt4ProjectManager.Qt4RunConfiguration</value>
+  <value type="QString">ProjectExplorer.CustomExecutableRunConfiguration</value>
  </data>
  <data>
   <variable>activeRunConfiguration</variable>
@@ -58,7 +54,8 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <value key="QtVersionId" type="int">0</value>
    <value key="ToolChain" type="int">0</value>
-   <value key="buildConfiguration" type="int">2</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">10</value>
   </valuemap>
  </data>
  <data>
@@ -66,7 +63,8 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
    <value key="QtVersionId" type="int">0</value>
-   <value key="buildConfiguration" type="int">0</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">8</value>
   </valuemap>
  </data>
  <data>
@@ -109,15 +107,16 @@
     <value type="QString">XMODIFIERS=@im=ibus</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">/home/gj/program_cpp/qt_note/gui/gui.pro</value>
+    <value type="QString">/home/gj/program_cpp/qt_note/button/button.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">linux-g++</value>
     <value type="QString">-r</value>
+    <value type="QString">CONFIG+=debug_and_release</value>
     <value type="QString">CONFIG+=debug</value>
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/qmake-qt4</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/gui</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/button</value>
   </valuemap>
  </data>
  <data>
@@ -161,11 +160,15 @@
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">debug</value>
     <value type="QString">-w</value>
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/gui</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/gj/program_cpp/qt_note/button</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">debug</value>
+   </valuelist>
   </valuemap>
  </data>
  <data>
@@ -188,6 +191,9 @@
   <variable>buildconfiguration-Release-buildstep1</variable>
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">release</value>
+   </valuelist>
   </valuemap>
  </data>
  <data>
