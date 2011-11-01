@@ -76,7 +76,7 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-sjeXF7KJsE,guid=d921f3cfae00d3db53dcabf54eab84c6</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ErDuq4sHHj,guid=8a4d42008ce659d1a69872774eae259c</value>
     <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
@@ -84,7 +84,7 @@
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
     <value type="QString">GDM_LANG=en_US.utf8</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-2eSdB4</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-qWJkzM</value>
     <value type="QString">GTK_IM_MODULE=ibus</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/gj</value>
@@ -97,17 +97,17 @@
     <value type="QString">PWD=/home/gj</value>
     <value type="QString">QTDIR=/usr/share/qt4</value>
     <value type="QString">QT_IM_MODULE=xim</value>
-    <value type="QString">SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1210,unix/ubuntu:/tmp/.ICE-unix/1210</value>
+    <value type="QString">SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1516,unix/ubuntu:/tmp/.ICE-unix/1516</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SPEECHD_PORT=7560</value>
-    <value type="QString">SSH_AGENT_PID=1297</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-2eSdB4/ssh</value>
+    <value type="QString">SSH_AGENT_PID=1551</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-qWJkzM/ssh</value>
     <value type="QString">USER=gj</value>
     <value type="QString">USERNAME=gj</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-gj-YSCLT3/database</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-gj-W2cA7j/database</value>
     <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=edbba4ff1d95ad9c4a6034ae4e1ee4ea-1319863493.884714-1936221662</value>
+    <value type="QString">XDG_SESSION_COOKIE=edbba4ff1d95ad9c4a6034ae4e1ee4ea-1320035739.919038-1473360908</value>
     <value type="QString">XMODIFIERS=@im=ibus</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
@@ -127,7 +127,7 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-sjeXF7KJsE,guid=d921f3cfae00d3db53dcabf54eab84c6</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ErDuq4sHHj,guid=8a4d42008ce659d1a69872774eae259c</value>
     <value type="QString">DEFAULTS_PATH=/usr/share/gconf/gnome.default.path</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
@@ -135,7 +135,7 @@
     <value type="QString">GDM_KEYBOARD_LAYOUT=us</value>
     <value type="QString">GDM_LANG=en_US.utf8</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-2eSdB4</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-qWJkzM</value>
     <value type="QString">GTK_IM_MODULE=ibus</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/gj</value>
@@ -148,17 +148,17 @@
     <value type="QString">PWD=/home/gj</value>
     <value type="QString">QTDIR=/usr/share/qt4</value>
     <value type="QString">QT_IM_MODULE=xim</value>
-    <value type="QString">SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1210,unix/ubuntu:/tmp/.ICE-unix/1210</value>
+    <value type="QString">SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1516,unix/ubuntu:/tmp/.ICE-unix/1516</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SPEECHD_PORT=7560</value>
-    <value type="QString">SSH_AGENT_PID=1297</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-2eSdB4/ssh</value>
+    <value type="QString">SSH_AGENT_PID=1551</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-qWJkzM/ssh</value>
     <value type="QString">USER=gj</value>
     <value type="QString">USERNAME=gj</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-gj-YSCLT3/database</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm/auth-for-gj-W2cA7j/database</value>
     <value type="QString">XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=edbba4ff1d95ad9c4a6034ae4e1ee4ea-1319863493.884714-1936221662</value>
+    <value type="QString">XDG_SESSION_COOKIE=edbba4ff1d95ad9c4a6034ae4e1ee4ea-1320035739.919038-1473360908</value>
     <value type="QString">XMODIFIERS=@im=ibus</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
